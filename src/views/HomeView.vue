@@ -7,7 +7,7 @@ import Alerts from "../components/Alerts.vue";
   <div>
     <Alerts />
     <Navbar />
-    <div class="header-begin-top">
+    <div id="header-begin-top-background" class="header-begin-top">
       <h1>Welcome To PublicSpaces | Montreal</h1>
     </div>
   </div>
@@ -17,7 +17,17 @@ import Alerts from "../components/Alerts.vue";
 .header-begin-top {
   text-align: center;
   font-family: sans-serif;
-  padding: 15px;
+  padding: 160px;
   font-weight: bold;
+}
+
+.header-begin-top h1 {
+  color: white;
+  font-size: 30px;
+}
+
+#header-begin-top-background {
+  background-image: url(../assets/day54-building.png);
+  background-size: contain;
 }
 </style>
